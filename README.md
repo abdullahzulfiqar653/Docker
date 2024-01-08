@@ -12,19 +12,19 @@ to run the project please follow the instructions given
 
 **3:** there are three docker files inside it.
 
-**i:** to run mysql image
+**to run mysql image:**
 
 ```
 docker compose -f docker-compose-mysql.yml up
 ```
 
-**ii:** to run broker images
+**to run broker images:**
 
 ```
 docker compose -f docker-compose-broker.yml up
 ```
 
-**iii:** to run postgres and pgadmin containers
+**to run postgres and pgadmin containers:**
 
 ```
 docker compose -f docker-compose-postgres.yml up
