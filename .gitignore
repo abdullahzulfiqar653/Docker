@@ -1,0 +1,35 @@
+# Ignore Docker image files
+*.tar
+*.gz
+
+# Ignore auto-generated Dockerfile
+Dockerfile~
+
+# Ignore Docker Compose files
+docker-compose.yml
+docker-compose.override.yml
+docker-compose.override.yml.example
+
+# Ignore local development files
+.dockerignore
+.env
+.env.local
+.env.*.local
+
+# Ignore Docker build context cache
+.docker/
+
+# Ignore container logs
+logs/
+
+# Ignore Docker images
+*.iml
+.idea/
+.vscode/
+
+# Ignore Docker-related files
+.dockerignore
+.dockerignore_global
+
+# Ignore persistent storage directories
+data/
